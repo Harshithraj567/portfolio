@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME</title>
+    <style>
+        .main{
+    margin: auto;
+}
+body {
+    background-color: #D4E9FF;
+}
+
+.container {
+    height: 250px;
+    width: 100%;
+    background-color: #9DB2BF;
+    border-bottom: 7px double black;
+}
+
+.sec1>img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: 8px solid #0E2954;
+}
+
+.sec1 {
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-right: 1px;
+}
+
+.sec2 {
+    width: 78%;
+    height: 250px;
+    float: right;
+    margin-right: 10px;
+    background-color: #9DB2BF;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.name {
+    font-size: 50px;
+    padding-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sec2 img {
+    height: 15px;
+    width: auto;
+}
+
+.dc1 {
+    width: 20%;
+    height: 1810px;
+    border-right: 7px double black;
+    float: left;
+    margin-left: 10px;
+}
+
+.dc2 {
+    width: 78%;
+    height: 1810px;
+    float: right;
+}
+
+
+.card1 {
+    width: 240px;
+    background-color: #86C6F0;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 1%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    height: 18px;
+    width: auto;
+}
+
+.card2 {
+    width: 240px;
+    background-color: #86C6F0;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 1%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.list {
+    list-style-type: circle;
+    line-height: 40px;
+}
+
+.card3 {
+    width: 240px;
+    background-color: #86C6F0;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 1%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.down {
+    width: 955px;
+    border-radius: 10px;
+    background-color: #86C6F0;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1%;
+}
+
+#button {
+    height: 35px;
+    width: auto;
+    background-color: #EA9B9B;
+    padding: 1%;
+    border-radius: 7px;
+    border: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: rgb(65, 60, 60)
+}
+
+a:hover {
+    color: white;
+}
+
+.down-container {
+    border-top: 7px double black;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    height: auto;
+    width: 100%;
+    margin-top: 1810px;
+    background-color: #9DB2BF;
+    height: 250px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+}
+
+.down-container h1,
+p {
+    margin-left: 10px;
+}
+
+.card4 {
+    width: 240px;
+    background-color: #86C6F0;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 1%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.card5 {
+    width: 240px;
+    background-color: #86C6F0;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 1%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        height: 110px;
+        width: 100%;
+        border-bottom: 4px double black;
+    }
+
+    .sec1>img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 4px solid #0E2954;
+    }
+
+    .sec1 {
+        width: 20%;
+        height: 110px;
+        float: left;
+        margin-right: 1px;
+    }
+
+    .sec2 {
+        width: 60%;
+        height: 110px;
+        float: right;
+        margin-right: 5px;
+        background-color: #9DB2BF;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .bold {
+        font-weight: 600;
+    }
+
+    .name {
+        font-size: 15px;
+        padding-bottom: 0px;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .sec2 img {
+        height: 7px;
+        width: auto;
+    }
+
+    .dc1 {
+        width: 30%;
+        height: 910px;
+        border-right: 4px double black;
+        float: left;
+        margin-left: 0px;
+    }
+
+    .dc2 {
+        width: 60%;
+        height: 910px;
+        float: right;
+        margin-right: 0px;
+        padding-right: 10px;
+    }
+
+    .card1 {
+        width: 85px;
+        background-color: #86C6F0;
+        margin-top: 5px;
+        border-radius: 10px;
+        padding: 1%;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    img {
+        height: 9px;
+        width: auto;
+    }
+
+    .card2 {
+        width: 85px;
+        background-color: #86C6F0;
+        margin-top: 5px;
+        border-radius: 10px;
+        padding: 1%;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .list {
+        list-style-type: circle;
+        line-height: 10px;
+        font-size: 6px;
+        margin-right: 10px;
+        padding-left: 12px;
+    }
+
+    .card3 {
+        width: 85px;
+        background-color: #86C6F0;
+        margin-top: 5px;
+        border-radius: 10px;
+        padding: 1%;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    p {
+        font-size: 6px;
+    }
+
+    .down {
+        width: 100%;
+        border-radius: 10px;
+        background-color: #86C6F0;
+        margin-top: 10px;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Montserrat', sans-serif;
+        padding: 1%;
+    }
+
+    .card4 {
+        width: 85px;
+        background-color: #86C6F0;
+        margin-top: 5px;
+        border-radius: 10px;
+        padding: 1%;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .card5 {
+        width: 85px;
+        background-color: #86C6F0;
+        margin-top: 5px;
+        border-radius: 10px;
+        padding: 1%;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .down h1 {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 10px;
+    }
+
+    #button {
+        height: 15px;
+        width: auto;
+        background-color: #EA9B9B;
+        /* padding: 1%; */
+        border-radius: 7px;
+        border: none;
+        font-size: 4px;
+    }
+
+    a:link {
+        color: black;
+    }
+
+    a:visited {
+        color: rgb(65, 60, 60);
+    }
+
+    a:hover {
+        color: white;
+    }
+
+    .down-container {
+        border-top: 4px double black;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Montserrat', sans-serif;
+        height: auto;
+        width: 100%;
+        margin-top: 911px;
+        background-color: #9DB2BF;
+        height: 100px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 2.5fr 1fr;
+    }
+
+    .down-container h1,p {
+        margin-left: 10px;
+
+    }
+    .down-container h1{
+        font-size: 12px;
+    }
+    .down-container{
+        width:auto;
+        height:auto;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="sec1">
+                <img src="images/HARSHITHPHOTO.jpeg" />
+            </div>
+            <div class="sec2">
+                <h1 class="name">DOMMETI HARSHITH RAJ</h1>
+                <p><span class="bold"><img src="images/mail.png" /> EMAIL : </span>dharshithraj123@gmail.com</p>
+                <p><span class="bold"><img src="images/linkedin.png" /> LINKEDIN : </span><a target="_blank"
+                        href="https://www.linkedin.com/in/harshith-raj-dommeti-10a8aa199">https://www.linkedin.com/in/harshith-raj-dommeti-10a8aa199</a>
+                </p>
+                <p><span class="bold"><img src="images/phone-call.png" /> PHNO : </span>9014462478</p>
+
+
+            </div>
+
+        </div>
+        <div class="dc1">
+            <div class="card1">
+                <p><span class="bold"><img src="images/location.png" /> ADDRESS : </span></p>
+                <hr />
+                <p>6-5</p>
+                <p>SC colony,chowduvada,k.kotapadu mandalam,visakhapatnam</p>
+                <p>Andhrapradesh</p>
+            </div>
+            <div class="card2">
+                <p><span class="bold"><img src="images/hobbies.png" /> HOBBIES : </span></p>
+                <hr />
+                <ul class="list">
+                    <li>Playing batmenton</li>
+                    <li>Reading newspaper</li>
+                    <li>Watching sci-fi movies</li>
+                </ul>
+            </div>
+            <div class="card3">
+                <p><span class="bold"><img src="images/skills.png">SKILLS : </span></p>
+                <hr />
+                <ul class="list">
+                    <li>C Language</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>HTML,CSS,JS</li>
+                    <li>AWS</li>
+                    <li>Salesforce-administrator</li>
+                    <li>Cloud computing</li>
+                    <li>SQL,DBMS</li>
+                    <li>MS Office, Word, Excel</li>
+                    <li>Project management</li>
+                    <li>Oops</li>
+                </ul>
+            </div>
+            <div class="card4">
+                <p><span class="bold"><img src="images/information.png">PERSONAL INFORMATION : </span></p>
+                <hr />
+                <p><span class="bold">Date of Birth : </span> 11-july-2002</p>
+                <p><span class="bold">Languages Known : </span>3(English, Telugu, Hindi)</p>
+                <p><span class="bold">Alternate Mobno : </span>7989960017</p>
+            </div>
+            <div class="card5">
+                <p><span class="bold"><img src="images/certificate.png" /> CERTIFICATIONS : </span></p>
+                <hr />
+                <ul class="list">
+                    <li>Infosys springboard Certification on Introduction to Java</li>
+                    <li>Salesforce administrator Certification by Simplilearn</li>
+                    <li>Technology Virtual Experience Program by Deloitte</li>
+                </ul>
+            </div>
+        </div>
+        <div class="dc2">
+            <div class=" down">
+                <h1><span class="bold">CAREER OBJECTIVE : </span></h1>
+                <hr />
+                <p>Highly motivated and detail-oriented Electronics and Communication
+                    engineering (ECE) graduate seeking a challenging role as a software developer
+                    to utilize my technical skills and knowledge to develop high-quality software
+                    applications. Looking to gain valuable experience and contribute to the success
+                    of a dynamic organization while continuously learning and growing in a
+                    collaborative and innovative environment.</p>
+
+            </div>
+            <div class="down">
+                <h1 class="bold">EDUCATIONAL QUALIFICATION : </h1>
+                <hr />
+                <h2 class="bold">Batchelor of Technology(BTECH 2020-2024) : </h2>
+                <p><span class="bold">COLLEGE : </span>VIGNAN'S INSTITUTE OF INFORMATION TECHNOLOGY(A)-VIIT Duvvada</p>
+                <p><span class="bold">Grade point average or Percentage (%) : </span>7.5/70%</p><br />
+                <h2 class="bold">Diploma (2017-2020) : </h2>
+                <p><span class="bold">COLLEGE : </span>Government polytechnic anakapalli</p>
+                <p><span class="bold">Grade point average or Percentage (%) : </span>72.4%</p><br />
+                <h2><span class="bold">10th CLASS(2016-2017) : </span></h2>
+                <p><span class="bold">SCHOOL : </span>Kendriya vidyalaya no.2</p>
+                <p><span class="bold">Grade point average or Percentage (%) : </span>8.4/79</p>
+            </div>
+            <div class="down">
+                <h1 class="bold">EXPERIENCE : </h1>
+                <hr />
+                <P><span class="bold">Company Name : </span>Acmegrade</P>
+                <p><span class="bold">Jobrole : </span>Intern</p>
+                <p><span class="bold">Keyskills : </span>Basics of AI</p>
+                <p><span class="bold">My Experience : </span>Completed an internship at Acmegrade in the fundamentals of
+                    Artificial
+                    Intelligence. Gained knowledge in various AI concepts, including machine
+                    learning and neural networks.</p>
+                
+                <br />
+                <P><span class="bold">Company Name : </span>Prepinsta</P>
+                <p><span class="bold">Jobrole : </span>Growthmanager</p>
+                <p><span class="bold">Keyskills : </span>Technical skills and Interview cracking skills</p>
+                <p><span class="bold">My Experience : </span> Currently, I am working with Prepinsta and gaining more
+                    knowledge on Technical skills like AWS, Cloud-computing, Aptitude and reasoning, Mern-stack
+                    developement etc.
+                </p>
+                <br />
+
+            </div>
+            <div class="down">
+                <h1 class="bold">PROJECTS : </h1>
+                <hr />
+                <p><span class="bold">Project-Title : </span>College Website</p>
+                <p><span class="bold">Key-Skills : </span>HTML, CSS, JS</p>
+                <p><span class="bold">About-Project : </span>Developed a college Website using HTML,CSS,JS incorporating
+                    responsive design and dynamic features to enhance user experience and engagement.</p>
+                <br />
+                <p><span class="bold">Project-Title : </span>Alcohal Detection Engine Locking system</p>
+                <p><span class="bold">About-Project : </span>Developed a project on alcohal detection using MQ3 alcohal
+                    detecting sensors and Arduino board. If sensor detects any alcohal it will automatically stops the
+                    engine. this project helps in reducing the accidents due to drunk and drive greatly</p>
+            </div>
+        </div>
+        <div class="down-container">
+            <h1>DECLARATION : </h1>
+            <p>I assure that the above mentioned particulars are true and correct to the best of my knowledge.</p>
+            <div class="grid">
+                <p><span class="bold">PlACE : </span> ANAKAPALLE</p>
+                <p class="right">D.Harshith raj</p>
+                <p><span class="bold">DATE : </span>22-06-2023</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
